@@ -1,0 +1,260 @@
+[
+	{
+		"name": "Colonial Marine",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Elite Colonial Marine",
+		"uniques": [
+			"May upgrade to [Elite Colonial Marine] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Colonial Marine Unit", "Bug Hunter"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Marine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Soldiers who went through some tough training, they could earn special equipment when they gain a rank."
+			}
+		]
+	},
+	{
+		"name": "Elite Colonial Marine",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+		"cost": 95,
+		"requiredTech": "Exoskeletons",
+		"upgradesTo": "Command Troop",
+		"uniques": [
+			"May upgrade to [Drop Trooper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Colonial Marine Unit", "Bug Hunter"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Marine",
+				//"extraImage": "TileSets/FantasyHex/Units/Elite Colonial Marine",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Rewarded the eliteness medal. Don't ever think they got it at cheap cost."
+			}
+		]
+	},
+	{
+		"name": "Command Troop",
+		"uniqueTo": "Walpole-Yuen Inc",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 44,
+		"cost": 500,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"Cannot be purchased",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Colonial Marine Unit", "Commando Training", "Professional Discipline"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Colonial Marine",
+				//"extraImage": "TileSets/FantasyHex/Units/Command Troop",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Their motto is 'Practice makes Perfect'. Experienced a very long and harsh training, so they achieved some special abilities."
+			}
+		]
+	},
+	{
+		"name": "Delver Team",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Deep Rock Ganymede",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 15,
+		"cost": 100,
+		"requiredTech": "Next-Gen Armaments",
+		"upgradesTo": "Elite Delver Team",
+		"uniques": [
+			"May upgrade to [Elite Delver Team] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Delver Training", "Bug Hunter"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Delver Team",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A small squad of veteran miners, armed with company-issued weaponry."
+			}
+		]
+	},
+	{
+		"name": "Elite Delver Team",
+		"uniqueTo": "Deep Rock Ganymede",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 20,
+		"cost": 95,
+		"requiredTech": "Exoskeletons",
+		"upgradesTo": "Drop Trooper",
+		"uniques": [
+			"May upgrade to [Drop Trooper] through ruins-like effects",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Delver Training", "Bug Hunter"],
+		"attackSound": "shot",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/Delver Team",
+				\\"extraImage": "TileSets/FantasyHex/Units/Elite Delver Team",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Through the experiences they met during either several battles or the company's training policy, these  small squad of veteran miners become more agile at fight and capable to be armed with better weaponry."
+			}
+		]
+	},
+	{
+		"name": "T-Series",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Skye Robotics",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 16,
+		"cost": 125,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["T-Series Unit"],
+		"upgradesTo": "T-Series Mk2",
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/T-Series",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Semi-autonomous combat droids, their humanoid shape is designed to instill fear toward enemies."
+			}
+		]
+	},
+	{
+		"name": "T-Series Mk2",
+		"uniqueTo": "Skye Robotics",
+		"unitType": "Infantry",
+		"movement": 3,
+		"strength": 22,
+		"cost": 155,
+		"requiredTech": "Cybernetics",
+		"requiredResource": "Titanium",
+		"upgradesTo": "T-Series Mk3",
+		"uniques": [
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["T-Series Unit"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/T-Series",
+				//"extraImage": "TileSets/FantasyHex/Units/T-Series Mk2",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The upgraded version of previous series. Bear more deadly weapons and have increased mobility."
+			}
+		]
+	},
+	{
+		"name": "T-Series Mk3",
+		"replaces": "Colony Rifleman",
+		"uniqueTo": "Skye Robotics",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 50,
+		"cost": 375,
+		"requiredTech": "Next-Gen Armaments",
+		"requiredResource": "Titanium",
+		"uniques": [
+			"Consumes [1] [Titanium]",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["T-Series Unit"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Units/T-Series",
+				//"extraImage": "TileSets/FantasyHex/Units/T-Series Mk3",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "The perfect version of its series. Its weapon is more lethal but have more weight that decrease its mobility."
+			}
+		]
+	},
+	{
+		"name": "Rock Hoppers (Drop Trooper)",
+		"unitType": "Infantry",
+		"movement": 2,
+		"strength": 43,
+		"cost": 300,
+		"requiredTech": "Cybernetics",
+		"uniques": [
+			"May Paradrop up to [5] tiles from inside friendly territory",
+			"Mercenary",
+			"Unbuildable",
+			"Only available <in cities with a [Mercenary Offices]>",
+			"Can move immediately once bought",
+			"Never appears as a Barbarian unit"
+		],
+		"promotions": ["Mercenary Pay","Meteorlike"],
+		"attackSound": "machinegun",
+		"civilopediaText": [
+			{
+				"text": "They have a tendency to flatten all opposition within moments of their landing. They also have a reputation for collateral damage."
+			}
+		]
+	},
+
+]

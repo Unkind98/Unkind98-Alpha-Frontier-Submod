@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Ocean",
+		"type": "Water",
+		"food": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [2, 104, 100],
+		"uniques": [
+			"Becomes [Offshore] when adjacent to [Coast]",
+			"Becomes [Coast] when adjacent to [Harborship Wreck]",
+			"Becomes [Coast] when adjacent to [Great Neuroreef]"
+		],
+		"civilopediaText": [
+			{
+				"text": "Vast amounts of surface water exists in this world, and its pelagic depths are dotted with geothermal vents.",
+				"link": "Resource/Vent"
+			}
+		]
+	},
+	//new -EXPERIMENTAL
+	{
+		"name": "Offshore",
+		"type": "TerrainFeature",
+		"food": 1,
+		"gold": 1,
+		"movementCost": 1,
+		"RGB": [29, 166, 47],
+		"overrideStats": true,
+		"occursOn": ["Ocean"],
+		"uniques": [
+			"Considered [Desirable] when determining start locations"
+		],
+		"civilopediaText": [
+			{
+				"text": "The definition of 'Offshore' in this game is what scientist called neritic zone, the relatively shallow part of the ocean above the drop-off of the continental shelf, approximately 200 meters (660 ft) in depth."
+			}
+		]
+	}
+]

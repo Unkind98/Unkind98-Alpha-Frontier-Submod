@@ -1,0 +1,194 @@
+[
+	{
+		"name": "Badwalmusafir",
+		"leaderName": "Igider Zeroual",
+		"adjective": ["Musafir"],
+		"startBias": ["Desert"],
+		"preferredVictoryType":"Diplomatic",
+
+		"startIntroPart1": "Azul, Igider Zeroual of the Badwalmusafir. A true visionary among the waves of refugees in the wake of the societal collapse of old Earth, you have amassed a devout following by promoting a nomadic way of life. Your wanderings took you places you never even believed existed before - and when your followers created a colony ship to wander the stars with, you did not hesitate to go.",
+		"startIntroPart2": "Igider, your nomads seek to roam on a better place. Will you lead them to new vistas full of distant sights? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "It is time for these restraining borders to disappear, starting with yours.",
+		"attacked": "Trespassing, are we?",
+		"defeated": "This may be where my mortal tracks stop - but my next leg of the journey had just begun.",
+		"introduction": "Hail, traveler! If you must ask, I am called Igider Zeroual. I walk with the Badwalmusafir.",
+
+		"neutralHello": "Mataanit, how are you?",
+		"hateHello": "Huh?",
+
+		"tradeRequest": "Our bazaar overflows with goods, and we would like to trade them with you.",
+
+		"outerColor": [201, 175, 113],
+		"innerColor": [255, 246, 212],
+		"favoredReligion": "Nomadist",
+		"uniqueName": "Eternal Caravan",
+		"uniques": ["[Great Visionary] is earned [+20]% faster <during a Golden Age>","City-State territory always counts as friendly territory","[+1] Movement <for [Land] units>"],
+		"cities": [
+			"Netmezra",
+			"Tenere",
+			"Tifawin",
+			"Timensiwin",
+			"Tanemmirt",
+			"Timlilit",
+			"Igerrez",
+			"Tam",
+			"Maghrebi",
+			"Akras",
+			"Yamrayur",
+			"Tafsut",
+			"Azegzaw",
+			"Timidi",
+			"Ngiit",
+			"Aynas",
+			"Kuzyur",
+			"Tamyur",
+			"Tagrest",
+			"Amwan"
+		]
+	},
+	{
+		"name": "Blue Streak Aerodynamics",
+		"leaderName": "Harvey Hawkes",
+		"adjective": ["Blue Streak"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Howdy, Harvey Hawkes, CEO of Blue Streak Aerodynamics! Coming from a long line of aviators, your grandfather created Blue Streak Aerodynamics before the collapse. Your father then expanded the company from an airplane design bureau into the commercial flight business, and you furthered it by investing into the aerospace sector. You take their legacy in stride, keeping your company afloat even in the face of the collapse, and the subsequent climate catastrophe. But your engineers haven't been idle - they've successfully created and marketed the designs for a spaceship, a colony ship that could take people to new worlds. So it is no surprise when you took one of your own colony ships into the furthest skies, along with the engineers and families wealthy enough to afford a ticket.",
+		"startIntroPart2": "Harvey, your colonists dream of flying the skies on this new world. Will you reach once more into the sky? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "You've done sullied my skies for too long. I'm gonna bomb you back to the stone age!",
+		"attacked": "Dag nabbit! I'll have you know, this means war!",
+		"defeated": "Doggone it, you've done clipped my wings.",
+		"introduction": "Howdy! I'm Harvey Hawkes, CEO of Blue Streak Aerodynamics. See you up above!",
+
+		"neutralHello": "What's the occasion, fella?",
+		"hateHello": "Well if it isn't the yellowbelly.",
+
+		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
+
+		"outerColor": [147, 218, 230],
+		"innerColor": [0, 19, 186],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Wild Blue Yonder",
+		"uniques": ["All newly-trained [Aerocraft] units [in all cities] receive the [Ambush I] promotion <after discovering [Lasers]>","[+1] Range <for [Air] units>","Gain [35] Influence with a [Military] gift to a City-State","Military Units gifted from City-States start with [15] XP"],
+		"cities": [
+			"Eagle City",
+			"Amarillo 2",
+			"Airstrip One",
+			"New Alamo",
+			"Cloud District",
+			"Skyhaven",
+			"Testament",
+			"Abilene Station",
+			"Test or Consequences",
+			"Osprey Junction",
+			"Buzz Corral",
+			"Kittyhawk Ridge",
+			"Rango Town",
+			"Dodge City",
+			"Bandera Station",
+			"Butte Hill",
+			"Fairweather",
+			"Zephyr City",
+			"Dust Devil",
+			"Airstrip Two"
+		]
+	},
+	{
+		"name": "Deep Rock Ganymede",
+		"leaderName": "Karl McUrist",
+		"adjective": ["Deep Rock"],
+		"startBias": ["Avoid [Coast]"],
+		"preferredVictoryType":"Cultural",
+
+		"startIntroPart1": "May you forever Rock and Stone, Karl McUrist, CEO of Deep Rock Ganymede! Ever since you've struck it rich as a hazardous miner in Ganymede, you've built your own corporation from the ground up. Your company's key to success is specializing in high-hazard high-pay employment to mine the rarest resources, going farther and deeper than any of your competitor ever dreamed of. Now, as unrest grips the Jovian moons, you turn your eye towards the new exoplanet, and built your own colony ship.",
+		"startIntroPart2": "Karl, your miners hunger for more minerals and riches, abundant on this planet. Will you lead them to better profit margins? Can you make a colony that stands the test of time?",
+
+		"declaringWar": "Something about you makes me want to punch your face in. Brace yourself, I'm going there personally!",
+		"attacked": "Oho? Fancying a fight now, you intergalactic goat?",
+		"defeated": "Ohh, this'll go in the Log of Grudges, aye.",
+		"introduction": "Hello there! I'm Karl McUrist, CEO of this here Deep Rock Ganymede corporation. Nice to meet you!",
+
+		"neutralHello": "Aye, hello there!",
+		"hateHello": "What is it, you oaf?",
+
+		"tradeRequest": "Hey, just notifying you that we've got this fresh new deal. How about it?",
+
+		"outerColor": [217, 56, 7],
+		"innerColor": [255, 218, 31],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Rock Solid",
+		"uniques": ["All newly-trained [Infantry] units [in all cities] receive the [Delver Training] promotion <after discovering [Cybernetics]>","[+20]% Strength <for [Military] units> <in [Hill] tiles>","[+1 Gold, +1 Production] from [Mountain] tiles [in all cities]","[+50]% City Strength from defensive buildings"],
+		"cities": [
+			"Koganusan",
+			"Corroded Grotto",
+			"Leaf Lover's Crypt",
+			"Solitary Expanse",
+			"Rancid Fissure",
+			"Deadman's Wreck",
+			"Purified Inferno",
+			"Karl's Drift",
+			"Mammoth Catacomb",
+			"Madmen's Doom",
+			"Blunt Hammer",
+			"Scout's Ledge",
+			"Forsaken Hand",
+			"Frozen Belly",
+			"Dastardly Agony",
+			"Brutal Echo",
+			"Noble Core",
+			"Driller's Drop",
+			"Shallow Fangs",
+			"Dry Gap"
+		]
+	},
+	{
+		"name": "Einherjar Diktat",
+		"leaderName": "Gregor Radec",
+		"adjective": ["Einherjar"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType":"Domination",
+
+		"startIntroPart1": "Hail, Diktat Gregor Radec of the Einherjar Diktat! Ever since your beginnings as a mercenary operating in the ice mines of Europa, you've steadily built up a loyal and dangerous following. As you seized power over Europa during the Jovian unrests, you've also begun to build your own spaceship - to further the reach of the Diktat far into space.",
+		"startIntroPart2": "Diktat Gregor, your troops are itching for a worthy fight in this new planet. Will you subjugate this world into the Diktat's fold? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "Your nation is next on the list. Let us let loose the dogs of war!",
+		"attacked": "Did you think this mere gesture would save you from our wrath?",
+		"defeated": "At last, we are truly free.",
+		"introduction": "This is the Einherjar Diktat. I am Diktat Gregor Radec. Stand down or be reaped.",
+
+		"neutralHello": "Ah, good. Speak, friend.",
+		"hateHello": "Speak.",
+
+		"tradeRequest": "Here is our list of demands. We may or may not offer reimbursement.",
+
+		"outerColor": [109, 145, 145],
+		"innerColor": [209, 50, 50],
+		"favoredReligion": "Voidist",
+		"uniqueName": "The Hounds of War",
+		"uniques": ["All newly-trained [Infantry] units [in all cities] receive the [Dog Soldier Reputation] promotion <after discovering [Exoskeletons]>","Earn [50]% of killed [Military] unit's [Strength] as [Culture]","+30% Strength when fighting City-State units and cities"],
+		"cities": [
+			"Ragnarok's Fist",
+			"Jotunheim",
+			"Solstenheim",
+			"Val-Halla",
+			"Bifrost Gap",
+			"Jormungand's Maw",
+			"Amsvartnir",
+			"Eljudnir",
+			"Folkvangr",
+			"Vaygr Reach",
+			"Gjallarbru",
+			"Helheim",
+			"Hvelgelmir",
+			"Lyngvi Kennel",
+			"Niflheim",
+			"Muspelheim",
+			"Svartalfheim",
+			"Urdarbrunn",
+			"Valgrind",
+			"Noatun"
+		]
+	}
+]

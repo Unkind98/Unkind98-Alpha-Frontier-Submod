@@ -1,0 +1,212 @@
+[
+	{
+		"name": "Sea Slivers",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
+		"food": 1,
+		"improvement": "Aquaculture",
+		"improvementStats": { "food": 1 },
+		"uniques": [
+			"Organic",
+			"Fauna",
+			"Generated on every [23] tiles <in [Featureless] [Offshore] tiles>",
+			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Sea Slivers",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sea Slivers",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "One of the few watery xenofauna that agrees with our biochemistry, these are plentiful enough at sea to be a regular source of meals."
+			}
+		]
+	},
+	{
+		"name": "Plankton",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
+		//"food": 1,
+		"improvement": "Aquaculture",
+		"improvementStats": { "production": 1, "food": 1 },
+		"uniques": [
+			"Organic",
+			"Generated on every [23] tiles <in [Featureless] [Offshore] tiles>",
+			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Plankton",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Plankton",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Free-floating microscopic xenofauna and xenoflora, these are an excellent source of nutrients and biofuel."
+			}
+		]
+	},
+	{
+		"name": "Algae",
+		"resourceType": "Bonus",
+		"terrainsCanBeFoundOn": ["Coast", "Offshore","Lakes"],
+		"food": 1,
+		"improvement": "Aquaculture",
+		"uniques": [
+			"Organic",
+			"Generated on every [23] tiles <in [Featureless] [Offshore] tiles>",
+			"Generated on every [10] tiles <in [Featureless] [Coast] tiles>",
+			"Generated on every [10] tiles <in [Featureless] [Lakes] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Algae",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Algae",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "Microbial plantlife floating in the sea, they exhibit striking similarities to the algae of old Earth. This means they, too, can be a source of nutrient and biofuel."
+			}
+		]
+	},
+	{
+		"name": "Sindrian Lobster",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
+		"food": 1,
+		"improvement": "Aquaculture",
+		"improvementStats": { "gold": 1, "food": 1 },
+		"uniques": [
+			"Organic",
+			"Fauna",
+			"Generated on every [23] tiles <in [Featureless] [Offshore] tiles>",
+			"Generated on every [23] tiles <in [Featureless] [Coast] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Sindrian Lobster",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Aquaculture Sindrian Lobster",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "This blue crustacean-like xenofauna is said to be the most delicious in this planet."
+			}
+		]
+	},
+	{
+		"name": "Vents",
+		"resourceType": "Bonus",
+		"revealedBy": "Deep Resource Scanning",
+		"terrainsCanBeFoundOn": ["Offshore"],
+		//"production": 1,
+		"improvement": "Offshore Platform",
+		"improvementStats": { "gold": 1, "production": 1 },
+		"uniques": [
+			"Mineral",
+			"Generated on every [33] tiles <in [Offshore] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Vents",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "Deep ocean hydrothermal vents are not only good sources of heat, they are also the source of exotic compounds and xeno-organisms."
+			}
+		]
+	},
+	{
+		"name": "Ice-10",
+		"resourceType": "Bonus",
+		"revealedBy": "Deep Resource Scanning",
+		"terrainsCanBeFoundOn": ["Coast", "Offshore"],
+		"science": 3,
+		"improvement": "Offshore Platform",
+		"improvementStats": { "science": 1, "production": 1 },
+		"uniques": [
+			"Generated on every [23] tiles <in [Offshore] tiles>",
+			"Generated on every [10] tiles <in [Featureless] [Coast] tiles> <with [1] to [6] neighboring [Ice] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Ice-10",
+				"imageSize": 64
+			},
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Offshore Platform Ice-10",
+				"imageSize": 64
+			},
+			{
+				"Separator": true
+			},
+			{
+				"text": "A kind of hypersaline ice caused by polar currents and microbial agents, they possess unique physical attributes that researchers love to study."
+			}
+		]
+	},
+	{
+		"name": "Benthic Orbs",
+		"resourceType": "Luxury",
+		"revealedBy": "Deep Resource Scanning",
+		"terrainsCanBeFoundOn": ["Offshore"],
+		"gold": 1,
+		"improvement": "Offshore Platform",
+		"improvementStats": { "gold": 1, "culture": 2 },
+		"uniques": [
+			"Mineral",
+			"Gemlike",
+			"Generated on every [33] tiles <in [Offshore] tiles>"
+		],
+		"civilopediaText": [
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Benthic Orbs",
+				"imageSize": 64
+			},
+			/*
+			{
+				"extraImage": "TileSets/FantasyHex/Tiles/Agri Farm Tubers",
+				"imageSize": 64
+			},
+			*/
+			{
+				"Separator": true
+			},
+			{
+				"text": "A pearl-like concentration of alloyed minerals created from the crushing depths of this planet's oceans, they are beautiful as they are rare."
+			}
+		]
+	}
+]
